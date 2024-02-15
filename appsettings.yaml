@@ -5,14 +5,14 @@ uvicorn:
   log_level: info
   reload: false
 db_connection:
-#  postgres_user: ${PostgresUser}
-#  postgres_password: ${PostgresPassword}
-#  postgres_server: ${PostgresServer}
-#  postgres_database: ${PosgresDatabase}
-  postgres_user: taybur
-  postgres_password: ece1109043
-  postgres_server: 192.168.0.102
-  postgres_database: simple-app
+  postgres_user: ${PostgresUser}
+  postgres_password: ${PostgresPassword}
+  postgres_server: ${PostgresServer}
+  postgres_database: ${PosgresDatabase}
+#  postgres_user: taybur
+#  postgres_password: ece1109043
+#  postgres_server: 192.168.0.102
+#  postgres_database: simple-app
 api_config:
   title: Simple FastAPI Server
   description: API Documentation for Simple FastAPI Server
