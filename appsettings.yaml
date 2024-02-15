@@ -5,10 +5,10 @@ uvicorn:
   log_level: info
   reload: false
 db_connection:
-  postgres_user: ${PostgresUser}
-  postgres_password: ${PostgresPassword}
-  postgres_server: ${PostgresServer}
-  postgres_database: ${PosgresDatabase}
+  postgres_user: ${POSTGRES_USER}
+  postgres_password: ${POSTGRES_PASSWORD}
+  postgres_server: ${POSTGRES_SERVER}
+  postgres_database: ${POSGRES_DATABASE}
 #  postgres_user: taybur
 #  postgres_password: ece1109043
 #  postgres_server: 192.168.0.102
