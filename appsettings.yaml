@@ -7,7 +7,7 @@ uvicorn:
 db_connection:
   postgres_user: taybur
   postgres_password: ece1109043
-  postgres_server: 3.236.200.61
+  postgres_server: simple-app-postgres
   postgres_database: simple-app
 #  postgres_user: taybur
 #  postgres_password: ece1109043
