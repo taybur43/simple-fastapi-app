@@ -1,0 +1,20 @@
+# server environment configuration
+uvicorn:
+  host: 0.0.0.0
+  port: 8000
+  log_level: info
+  reload: false
+db_connection:
+  postgres_user: taybur
+  postgres_password: ece1109043
+  postgres_server: test-simple-app-postgres2
+  postgres_database: simple-app
+#  postgres_user: taybur
+#  postgres_password: ece1109043
+#  postgres_server: 192.168.0.102
+#  postgres_database: simple-app
+api_config:
+  title: Simple FastAPI Server
+  description: API Documentation for Simple FastAPI Server
+  version: v1
+  docs_url: /docs
